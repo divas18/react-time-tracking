@@ -223,7 +223,7 @@ export class TimeEntryInput extends Component {
               marginLeft: 20,
               minWidth: 50
             }}
-            onClick={this.handleStart}
+            onClick={this.state.text ? this.handleStart : null}
           />
         }
         {
